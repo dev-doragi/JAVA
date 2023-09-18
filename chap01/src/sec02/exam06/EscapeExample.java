@@ -2,11 +2,11 @@ package sec02.exam06;
 
 public class EscapeExample {
 	public static void main(String[] args) {
-		// ì´ìŠ¤ì¼€ì´í”„ ë¬¸ì
-		System.out.println("ë²ˆí˜¸\tì´ë¦„\tì§ì—… ");
-		System.out.println("í–‰ ë‹¨ìœ„ ì¶œë ¥\n");
-		System.out.println("í–‰ ë‹¨ìœ„ ì¶œë ¥\n");
-		System.out.println("ìš°ë¦¬ëŠ” \"ê°œë°œì\" ì…ë‹ˆë‹¤.");
-		System.out.println("ë´„\\ì—¬ë¦„\\ê°€ì„\\ê²¨ìš¸");
+		// ÀÌ½ºÄÉÀÌÇÁ ¹®ÀÚ
+		System.out.println("¹øÈ£\tÀÌ¸§\tÁ÷¾÷ ");
+		System.out.println("Çà ´ÜÀ§ Ãâ·Â\n");
+		System.out.println("Çà ´ÜÀ§ Ãâ·Â\n");
+		System.out.println("¿ì¸®´Â \"°³¹ßÀÚ\" ÀÔ´Ï´Ù.");
+		System.out.println("º½\\¿©¸§\\°¡À»\\°Ü¿ï");
 	}
 }

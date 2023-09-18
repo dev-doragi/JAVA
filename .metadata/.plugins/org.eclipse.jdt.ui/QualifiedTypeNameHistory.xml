@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="javax.print.DocFlavor.BYTE_ARRAY"/>
-    <fullyQualifiedTypeName name="sec02.exam04.CharExample"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="sec02.exam05.StringExample"/>
-    <fullyQualifiedTypeName name="java.awt.JobAttributes"/>
-</qualifiedTypeNameHistroy>

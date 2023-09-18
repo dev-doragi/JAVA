@@ -7,7 +7,7 @@ public class ByteExample {
 		byte var3 = 0;
 		byte var4 = 30;
 		byte var5 = 127;
-		byte var6 = 127; // 컴파일 에러
+		byte var6 = 127; 
 		
 		System.out.println(var1);
 		System.out.println(var2);

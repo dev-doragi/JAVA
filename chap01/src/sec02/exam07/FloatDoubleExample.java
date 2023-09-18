@@ -2,8 +2,8 @@ package sec02.exam07;
 
 public class FloatDoubleExample {
 	public static void main(String[] args) {
-		// ì‹¤ìˆ˜ê°’ ì €ì¥
-		// float var1 = 3.14; // ì»´íŒŒì¼ ì—ëŸ¬
+		// ½Ç¼ö °ª ÀúÀå
+		// float var1 = 3.14; // ÄÄÆÄÀÏ ¿¡·¯
 		float var2 = 3.14f;
 		double var3 = 3.14;
 		

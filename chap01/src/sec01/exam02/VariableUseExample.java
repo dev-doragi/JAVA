@@ -2,16 +2,16 @@ package sec01.exam02;
 
 public class VariableUseExample {
 	public static void main(String[] args) {
-		// ë³€ìˆ˜ ì„ ì–¸
+		// º¯¼ö ¼±¾ğ
 		int hour = 3;
 		int minute = 5;
 		
-		// ì¶œë ¥ 
-		System.out.println(hour + "ì‹œê°„" + minute + "ë¶„");
+		// Ãâ·Â 
+		System.out.println(hour + "½Ã°£" + minute + "ºĞ");
 		
-		// ì—°ì‚°
+		// ¿¬»ê
 		int totalMinute = (hour*60) + minute;
-		// ì¶œë ¥
-		System.out.println("ì´" + totalMinute + "ë¶„");
+		// Ãâ·Â
+		System.out.println("ÃÑ" + totalMinute + "ºĞ");
 	} // end of main
 } // end of class

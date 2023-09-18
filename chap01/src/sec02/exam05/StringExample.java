@@ -2,8 +2,8 @@ package sec02.exam05;
 
 public class StringExample {
 	public static void main(String[] args) {
-		String name = "í™ê¸¸ë™";
-		String job = "í”„ë¡œê·¸ë˜ë¨¸";
+		String name = "È«±æµ¿";
+		String job = "À¥ÇÁ·Î±×·¡¸Ó";
 		System.out.println(name);
 		System.out.println(job);
 		
