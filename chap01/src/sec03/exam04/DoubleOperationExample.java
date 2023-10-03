@@ -11,6 +11,6 @@ public class DoubleOperationExample {
 		
 		// int 타입으로 계산결과를 얻고 싶으면 double 타입 변수를 int 캐스팅 후 연산
 		int result2 = intValue + (int) doubleValue;
-		System.out.println("result2: " + result2);
+		System.out.println("result2: " + result2);		
 	}
 }
