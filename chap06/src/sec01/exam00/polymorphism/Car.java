@@ -23,4 +23,3 @@ public class Car implements Vehicle{
 		System.out.println("자동차 를! 정지합니다");
 	} 
 }
-

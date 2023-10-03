@@ -21,6 +21,13 @@ public class Car {
 		System.out.println("모든 창문을 엽니다.");
 	}
 	
+    public void operate() { 
+    // private인 멤버 메서드들에 접근하기 위해 public의 operate라는 함수를 통해서 접근 -> 캡슐화
+        startEngine();
+        moveForward();
+        openWindow();
+    }
+	
 	// getter & setter 사용해서 private 멤버 변수에 접근하기
 	// 우클릭 소스 generate getter & setter
 	public String getModel() {

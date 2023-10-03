@@ -8,7 +8,7 @@ public class Car extends Vehicle {
 		System.out.println("자동차의 모든 창문을 엽니다.");
 	}
 
-	@Override
+	@Override // 재정의를 위한 어노테이션(주석)
 	public void start() {
 		System.out.println("자동차가 지금 출발합니다!");
 	}
