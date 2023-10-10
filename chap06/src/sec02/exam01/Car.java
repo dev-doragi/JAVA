@@ -51,10 +51,10 @@ public class Car {
 	// method
 	public String getCarInfo() {
 		return " === Car Info === \n" +
-					 "Model : 		 " + getModel() + "\n" +
-					 "Color: 		" + getColor() + "\n" +
-					 "MaxSpeed: " + getMaxSpeed() + "Km\n" +
-					 "Speed: 	  	" + getSpeed() + "Km\n";
+					 "Model :         " + getModel() + "\n" +
+					 "Color: 	     " + getColor() + "\n" +
+					 "MaxSpeed:  " + getMaxSpeed() + "Km\n" +
+					 "Speed: 	     " + getSpeed() + "Km\n";
 	}
 	
 }
