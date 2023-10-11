@@ -6,9 +6,9 @@ public class Settings {
 	private int fontSize = 15;
 	
 	// 생성자
-	private Settings() {}
+	private Settings() {} // 외부에서 생성자 호출 불가
 	// 참조형 변수(정적 필드)
-	private static Settings settings = null;
+	private static Settings settings = null; // 자신의 인스턴스 생성
 	
 	public static Settings getInstance() { // 싱글톤 객체 생성 루틴
 		if (settings == null) {

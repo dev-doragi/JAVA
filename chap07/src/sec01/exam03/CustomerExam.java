@@ -10,6 +10,7 @@ public class CustomerExam {
 		customer_2.calcMileagePoint(20000);
 		
 		System.out.println(customer_1.customerInfo());
+		System.out.println(customer_2.customerInfo());
 
 	}
 

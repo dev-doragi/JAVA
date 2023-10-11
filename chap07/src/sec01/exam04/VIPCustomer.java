@@ -25,10 +25,7 @@ public class VIPCustomer extends Customer {
 	@Override
 	public int calcMileagePoint(int price) {
 		mileagePoint += ((price * mileageRatio) + getSpecialMP());
-		return super.calcMileagePoint(price);
+		return mileagePoint;
 	}
-	
-	
-	
 
 }

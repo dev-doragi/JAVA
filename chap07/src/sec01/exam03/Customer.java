@@ -27,7 +27,7 @@ public class Customer {
 		// StringBuilder 객체에 문자열 추가
 		builder.append("===================[  고객 정보  ]===================");
 		builder.append("\n" + customerName + "님의 등급은 ");
-		builder.append(customerGrade + "이며, 현재 마일리지는 ").append(mileagePoint).append("pt 입니다.");
+		builder.append(customerGrade + "이며, 현재 마일리지는 ").append(mileagePoint).append("pt 입니다.\n");
 		
 		// StringBuilder 객체의 값을 문자열로 변환하여 반환
 		return builder.toString();
