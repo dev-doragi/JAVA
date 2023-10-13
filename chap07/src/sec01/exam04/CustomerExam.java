@@ -9,7 +9,7 @@ public class CustomerExam {
 		customer_1.setCustomerName("º’»ÔπŒ");
 		customer_1.calcMileagePoint(100000);
 		System.out.println(customer_1.customerInfo());
-		//System.out.println((customer_1.customerInfo()).length() / 6 + "\n");
+		//System.out.println((customer_1.customerInfo()).length() / 5 + "\n");
 		
 		VIPCustomer customer_2 = new VIPCustomer();
 		customer_2.setCustomerID(1002);

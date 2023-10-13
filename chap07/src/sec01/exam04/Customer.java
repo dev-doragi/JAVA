@@ -18,15 +18,34 @@ public class Customer {
 		return mileagePoint;
 	}
 
+	public void setTitleLength(int len) {
+		StringBuilder builder = new StringBuilder();
+		
+		for (int i = 0; i < len; i++) {
+			builder.append("=");
+		}
+		builder.append("[  고객 정보  ]");
+		for (int i = 0; i < len; i++) {
+			builder.append("=");
+		}
+		builder.append("\n");
+		System.out.println(builder.toString());
+	}
+	
 	// 고객 정보 안내 메서드
 	public String customerInfo() {
+		int len;
+		
 		// StringBuilder 객체 생성
 		StringBuilder builder = new StringBuilder();
 		
 		// StringBuilder 객체에 문자열 추가
-		builder.append("===================[  고객 정보  ]===================");
-		builder.append("\n" + customerName + "님의 등급은 ");
+		builder.append(customerName + "님의 등급은 ");
 		builder.append(customerGrade + "이며, 현재 마일리지는 ").append(mileagePoint).append("pt 입니다.\n");
+		
+		// 고객 정보 제목 길이 정하기
+		len = (builder.toString()).length() / 2;
+		setTitleLength(len);
 		
 		// StringBuilder 객체의 값을 문자열로 변환하여 반환
 		return builder.toString();

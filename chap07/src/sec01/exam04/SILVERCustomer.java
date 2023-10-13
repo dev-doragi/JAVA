@@ -14,7 +14,7 @@ public class SILVERCustomer extends Customer{
 
 	@Override
 	public int calcMileagePoint(int price) {
-		return super.calcMileagePoint(price);
+		return super.calcMileagePoint(price); // 부모 클래스의 calcMileagePoint함수
 	}
 	
 }
