@@ -18,7 +18,7 @@ public class Customer {
 		return mileagePoint;
 	}
 
-	public void setTitleLength(int len) {
+	public void setTitleLength(int len) { // = 개수 정해주는 함수
 		StringBuilder builder = new StringBuilder();
 		
 		for (int i = 0; i < len; i++) {

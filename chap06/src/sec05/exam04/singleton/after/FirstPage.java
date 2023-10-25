@@ -12,4 +12,14 @@ public class FirstPage {
 		settings.getTheme(settings.getDarkMode());
 		System.out.println("Font Size: " + settings.getFontSize() + "\n");
 	}
+	
+	public void setSettings() {
+		settings.setDarkMode(false);
+		settings.setFontSize(22);
+	}
+	
+	public void printSettings() {
+		settings.getTheme(settings.getDarkMode());
+		System.out.println("Font Size: " + settings.getFontSize() + "\n");
+	}
 }

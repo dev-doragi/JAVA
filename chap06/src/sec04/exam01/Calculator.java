@@ -12,7 +12,7 @@ public class Calculator {
 	}
 	
 	double divide(int x, int y) {
-		double result = (double) x / (double)y;
+		double result =  (double)x / (double)y;
 		return result;
 	}
 	
